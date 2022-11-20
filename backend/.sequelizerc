@@ -1,0 +1,14 @@
+// iportando o dependência path do node para o trabalho com pastas
+const path = require("path");
+
+module.exports = {
+	// importando a configuração do sequelize
+	// resolve(): serve para apontarmos umapasta
+	// _dirname: obrigatório
+
+	// indicando o caminho do nosso banco de dados
+	// src/config/database.js
+	config: path.resolve(__dirname, "src", "config", "database.js"),
+	//importando a pasta de migrações(migrations)com
+	"migrations-path": path.resolve(__dirname, "src", "database", "migrations"),
+};
