@@ -6,7 +6,7 @@
         <p>
         <p>
             <strong>Descrição:</strong>
-            <p>Projeto no qual é criado um API com fazendo a conexão com o backend</p>
+            <p>Projeto no qual é criado uma API fazendo a conexão com o Back-end</p>
         </p>
     </p>
     </section>
